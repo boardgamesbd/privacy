@@ -3,84 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Fast Proxies for Telegram</title>
+    <title>Fast Proxies for Telegram - Official Page</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #f9f9f9;
+            padding: 20px;
+            background-color: #f4f7f9;
         }
-        .container {
+        .app-header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #0088cc, #005588);
+            color: white;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .app-header h1 { margin: 0; font-size: 2.2em; }
+        .app-header p { opacity: 0.9; font-size: 1.1em; margin-top: 10px; }
+        
+        .content-box {
             background-color: #fff;
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #000; font-size: 1.8em; }
-        h2 { margin-top: 30px; color: #2c3e50; font-size: 1.4em; }
-        h3 { color: #34495e; font-size: 1.1em; }
-        p, li { color: #555; }
+        h2 { margin-top: 30px; color: #2c3e50; font-size: 1.5em; border-left: 4px solid #0088cc; padding-left: 15px; }
+        h3 { color: #34495e; font-size: 1.2em; margin-top: 25px; }
+        p, li { color: #555; font-size: 1.05em; }
         ul { padding-left: 20px; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #888; text-align: center; }
-        .disclaimer { background: #fff5f5; border-left: 4px solid #ff4d4d; padding: 15px; margin: 20px 0; }
-        a { color: #3498db; text-decoration: none; }
+        a { color: #0088cc; text-decoration: none; }
         a:hover { text-decoration: underline; }
+        
+        .disclaimer-card {
+            background: #fff5f5;
+            border: 1px solid #feb2b2;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .disclaimer-card h2 { border: none; padding: 0; color: #c53030; margin-top: 0; }
+        
+        .contact-btn {
+            display: inline-block;
+            background: #0088cc;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .contact-btn:hover { background: #006699; }
+        
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+            text-align: center;
+        }
+        hr { border: 0; border-top: 1px solid #eee; margin: 30px 0; }
+        .external-link { font-size: 0.9em; margin-top: 5px; display: block; color: #666; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated:</strong> March 23, 2026</p>
 
-        <p>This Privacy Policy describes how the <strong>Fast Proxies for Telegram</strong> application (hereinafter referred to as the "App") collects, uses, and protects user information.</p>
+    <div class="app-header">
+        <h1>Fast Proxies for Telegram</h1>
+        <p>Stable MTProto Proxies for Secure Connection</p>
+    </div>
 
-        <div class="disclaimer">
-            <h2>1. Disclaimer: This App is NOT a VPN</h2>
-            <p>The App is an auxiliary tool (utility) for managing MTProto proxy server configurations.</p>
+    <div class="content-box">
+        <p><strong>Effective Date:</strong> March 23, 2026</p>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>This Privacy Policy describes how <strong>Fast Proxies for Telegram</strong> (the "App") handles information. Our primary goal is to provide a simple and secure way to access MTProto proxies while maintaining user anonymity.</p>
+        </section>
+
+        <div class="disclaimer-card">
+            <h2>1. Important: Not a VPN</h2>
+            <p>The App is a <strong>utility tool</strong> for managing MTProto proxy configurations. Please be aware:</p>
             <ul>
-                <li>The App does not provide VPN (Virtual Private Network) services.</li>
-                <li>The App does not tunnel all device traffic.</li>
-                <li>The App serves exclusively to simplify the process of adding publicly available proxy settings to third-party messaging applications.</li>
+                <li>The App <strong>does not</strong> provide VPN (Virtual Private Network) services.</li>
+                <li>The App <strong>does not</strong> tunnel your entire device's internet traffic.</li>
+                <li>It only helps you find and add proxy settings to your messaging client.</li>
             </ul>
         </div>
 
-        <h2>2. General Information</h2>
-        <p>We are committed to maximum user anonymity. The App does not require registration and does not collect your personal data (name, phone number, or contacts).</p>
+        <section>
+            <h2>2. Data Collection</h2>
+            <p>We believe in privacy. The App is designed to work without requiring you to provide personal data:</p>
+            <ul>
+                <li><strong>No Accounts:</strong> You don't need to register or log in.</li>
+                <li><strong>No Personal Info:</strong> We don't collect names, emails, or phone numbers.</li>
+                <li><strong>No Logs:</strong> We do not track which proxies you use or your messaging activity.</li>
+            </ul>
+        </section>
 
-        <h2>3. Data Collection and Usage</h2>
-        
-        <h3>3.1. Interaction with GitHub</h3>
-        <p>The App loads the proxy server list from a public GitHub repository. The App requests data from <em>raw.githubusercontent.com</em> solely to retrieve a text file containing the server list. We do not collect your GitHub profile data and do not have access to your private repositories.</p>
+        <section>
+            <h2>3. Third-Party Services</h2>
+            <p>To provide functionality and analyze app performance, we use the following services:</p>
 
-        <h3>3.2. Firebase Services (Google)</h3>
-        <p>We use Firebase (Google Inc.) to analyze the stability and performance of the App:</p>
-        <ul>
-            <li><strong>Firebase Crashlytics:</strong> Collects anonymous crash and error reports to help us provide timely fixes.</li>
-            <li><strong>Firebase Analytics:</strong> Collects de-identified data on interface interaction (e.g., clicks on the proxy list).</li>
-        </ul>
+            <h3>3.1. GitHub</h3>
+            <p>The proxy list is fetched from a public repository on GitHub. This request is anonymous and retrieves only the necessary configuration file.</p>
+            <a class="external-link" href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">→ Read GitHub Privacy Statement</a>
+            
+            <h3>3.2. Google Firebase</h3>
+            <p>We use Firebase to monitor app health and user interaction:</p>
+            <ul>
+                <li><strong>Crashlytics:</strong> Anonymous reports on app crashes to help us fix bugs.</li>
+                <li><strong>Analytics:</strong> Aggregated data on how users interact with the app.</li>
+            </ul>
+            <a class="external-link" href="https://policies.google.com/privacy" target="_blank">→ Read Google Privacy Policy</a>
 
-        <h3>3.3. Yandex Advertising Network (YAN)</h3>
-        <p>The App displays advertisements from Yandex. YAN may use anonymous device identifiers (Advertising ID) to show relevant ads according to their own privacy policies.</p>
+            <h3>3.3. Yandex Advertising Network (YAN)</h3>
+            <p>To keep the app free, we show ads via Yandex. YAN may use anonymous advertising identifiers (such as GAID) to provide relevant content.</p>
+            <a class="external-link" href="https://yandex.com/legal/confidential/" target="_blank">→ Read Yandex Privacy Policy</a>
+        </section>
 
-        <h2>4. Security</h2>
-        <p>We use standard data protection methods provided by the Firebase and Yandex platforms. Since the App does not store personal information, the risk of personal data leakage is minimized.</p>
+        <section>
+            <h2>4. Policy Updates</h2>
+            <p>We may update this policy occasionally. Any changes will be posted on this page with an updated date.</p>
+        </section>
 
-        <h2>5. Third-Party Data Transfer</h2>
-        <p>We do not sell or transfer your data to third parties, except as necessary for the operation of the aforementioned SDKs (Google, Yandex) within the framework of their respective policies.</p>
+        <section>
+            <h2>5. Contact Support</h2>
+            <p>Have questions or feedback? Feel free to reach out:</p>
+            <a href="mailto:boardgames.bd@gmail.com" class="contact-btn">boardgames.bd@gmail.com</a>
+        </section>
 
-        <h2>6. Consent</h2>
-        <p>By using this App, you agree to the terms of this Privacy Policy.</p>
-
-        <h2>7. Contact Us</h2>
-        <p>If you have any questions, please contact us at: <a href="mailto:boardgames.bd@gmail.com">boardgames.bd@gmail.com</a></p>
+        <hr>
+        <div class="footer">
+            &copy; 2026 Fast Proxies for Telegram. <br>
+            Developed for the community.
+        </div>
     </div>
 
-    <div class="footer">
-        &copy; 2026 Fast Proxies for Telegram. All rights reserved.
-    </div>
 </body>
 </html>
