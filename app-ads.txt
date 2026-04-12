@@ -266,3 +266,11 @@ app-stock.com, 256917, RESELLER
 rubiconproject.com, 26958, RESELLER, 0bfd66d529a55807
 triplelift.com, 14594, RESELLER, 6c33edb13117fd86
 undertone.com, 4108, RESELLER
+rubiconproject.com, 17328, RESELLER, 0bfd66d529a55807
+algorix.co, 54616, RESELLER, 5b394c12fea27a1d
+loopme.com, 9621, RESELLER, 6c8d5f95897a5a3b
+pokkt.com, 6246, RESELLER, c45702d9311e25fd
+unity.com, 1772735, DIRECT, 96cabb5fbdde37a7
+pubmatic.com, 156520, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 20014, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
